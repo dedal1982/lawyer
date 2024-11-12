@@ -123,3 +123,24 @@ button {
 .promo__header-list li a:hover {
   color: #d1b06b;
 }
+.promo__header-connec {
+  display: flex;
+  gap: 50px;
+}
+.promo__header-item {
+  display: flex;
+}
+.promo__header-item a {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  border: 2px solid #d1b06b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.promo__header-item a img {
+  width: 17px;
+  height: 17px;
+  object-fit: cover;
+}
