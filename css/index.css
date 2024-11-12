@@ -45,6 +45,7 @@ button {
   padding-left: 40px;
   padding-right: 40px;
   box-sizing: border-box;
+  margin: 0 auto;
 }
 .promo {
   width: 100%;
@@ -73,4 +74,10 @@ button {
 .promo__header-top img {
   width: 400px;
   height: 79px;
+}
+.promo__header-top a {
+  width: 350px;
+  height: 85px;
+  background: #ffffff1a;
+  border: 1px solid #ffffff1a;
 }
