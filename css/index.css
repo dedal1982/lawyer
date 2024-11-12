@@ -235,3 +235,49 @@ button {
   height: 100%;
   object-fit: cover;
 }
+/*---welcome---*/
+.welcome {
+  width: 100%;
+  display: flex;
+  background: #161d27;
+}
+.welcome__wrapper {
+  display: flex;
+  gap: 60px;
+  padding-top: 140px;
+  box-sizing: border-box;
+}
+.welcome__images {
+  max-width: 467px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.welcome__text {
+  max-width: 790px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.welcome__text h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 58.5px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.welcome__text img {
+  width: 95px;
+  height: 44px;
+  margin-top: 11px;
+}
+.welcome__text p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #d7d7d7;
+  margin-top: 43px;
+}
