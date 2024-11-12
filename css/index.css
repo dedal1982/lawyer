@@ -96,3 +96,30 @@ button {
 .promo__header-top a:hover {
   background: #ffffff76;
 }
+.promo__header-nav {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #4e555f;
+  border-bottom: 1px solid #4e555f;
+}
+.promo__header-list {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+}
+.promo__header-list li a {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35.2px;
+  color: #ffffff;
+}
+.promo__header-list li a.active {
+  color: #d1b06b;
+}
+.promo__header-list li a:hover {
+  color: #d1b06b;
+}
