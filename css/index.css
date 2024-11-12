@@ -268,7 +268,7 @@ button {
   color: #ffffff;
   margin-top: 10px;
 }
-.welcome__text img {
+.welcome__icon {
   width: 95px;
   height: 44px;
   margin-top: 11px;
@@ -280,4 +280,21 @@ button {
   line-height: 32px;
   color: #d7d7d7;
   margin-top: 43px;
+}
+.welcome__name {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 35px;
+}
+.welcome__img {
+  width: 90px;
+  height: 90px;
+}
+.welcome__name h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #ffffff;
 }
