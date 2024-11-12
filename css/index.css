@@ -129,6 +129,8 @@ button {
 }
 .promo__header-item {
   display: flex;
+  align-items: center;
+  gap: 12px;
 }
 .promo__header-item a {
   width: 62px;
@@ -143,4 +145,22 @@ button {
   width: 17px;
   height: 17px;
   object-fit: cover;
+}
+.promo__header-text {
+  display: flex;
+  flex-direction: column;
+}
+.promo__header-text span {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  color: #d1b06b;
+}
+.promo__header-text p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26.4px;
+  color: #ffffff;
 }
