@@ -167,6 +167,7 @@ button {
 .promo__main {
   width: 100%;
   display: flex;
+  gap: 16px;
   margin-top: 20px;
 }
 .promo__main-text {
@@ -196,4 +197,28 @@ button {
   line-height: 39.6px;
   color: #d1b06b;
   margin-top: 21px;
+}
+.promo__main a {
+  width: 269px;
+  height: 85px;
+  background: #d1b06b;
+  border: 1px solid #d1b06b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35.2px;
+  color: #1f2732;
+  margin-top: 28px;
+}
+.promo__main-image {
+  width: 672px;
+  height: 708px;
+}
+.promo__main-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
