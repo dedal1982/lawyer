@@ -52,7 +52,12 @@ button {
 .promo {
   width: 100%;
   display: flex;
-  background: url(../image/promo.svg);
+  background: linear-gradient(
+      rgba(31, 39, 50, 0.8),
+      rgba(31, 39, 50, 0.8),
+      rgba(31, 39, 50, 0.8)
+    ),
+    url(../image/promo.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -91,10 +96,12 @@ button {
   font-size: 22px;
   line-height: 35.2px;
   color: #ffffff;
-  transition: all 0.2s ease-out;
+  transition: all 0.2s ease-in-out;
 }
 .promo__header-top a:hover {
-  background: #ffffff76;
+  background: #d1b06b;
+  color: #1f2732;
+  border: 1px solid #d1b06b;
 }
 .promo__header-nav {
   width: 100%;
@@ -212,6 +219,12 @@ button {
   line-height: 35.2px;
   color: #1f2732;
   margin-top: 28px;
+  transition: all 0.2s ease-in-out;
+}
+.promo__main a:hover {
+  background: #ffffff1a;
+  color: #fff;
+  border: 1px solid #ffffff1a;
 }
 .promo__main-image {
   width: 672px;
