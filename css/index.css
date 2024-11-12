@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url(../fonts/font.css);
 * {
@@ -39,6 +40,7 @@ button {
 }
 
 /* font-family: "Cormorant Garamond", serif; */
+/* font-family: "Outfit", sans-serif; */
 .container {
   max-width: 1440px;
   width: 100%;
@@ -80,4 +82,16 @@ button {
   height: 85px;
   background: #ffffff1a;
   border: 1px solid #ffffff1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35.2px;
+  color: #ffffff;
+  transition: all 0.2s ease-out;
+}
+.promo__header-top a:hover {
+  background: #ffffff76;
 }
