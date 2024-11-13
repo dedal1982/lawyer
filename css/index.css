@@ -379,3 +379,8 @@ button {
   line-height: 32px;
   color: #d7d7d7;
 }
+.practice__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(auto, 1fr));
+  gap: 30px;
+}
