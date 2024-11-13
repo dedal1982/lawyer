@@ -705,3 +705,71 @@ button {
   justify-content: space-between;
   gap: 20px;
 }
+.consultation__text {
+  max-width: 630px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.consultation__text h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 58px;
+  color: #fff;
+}
+.consultation__icon {
+  width: 95px;
+  height: 44px;
+  margin-top: 9px;
+}
+.consultation__text p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #d7d7d7;
+  margin-top: 43px;
+}
+.consultation__text a {
+  width: 257px;
+  height: 85px;
+  background: #d1b06b;
+  border: 1px solid #d1b06b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35.2px;
+  color: #1f2732;
+  margin-top: 40px;
+}
+.consultation__card {
+  width: 630px;
+  padding: 55px;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+.consultation__card-inner {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 40px;
+  box-sizing: border-box;
+  border: 15px solid #d7d7d7;
+}
+.consultation__card-inner h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 54.6px;
+  color: #1f2732;
+}
+.consultation__card-inner p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #909090;
+}
