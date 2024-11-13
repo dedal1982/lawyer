@@ -575,3 +575,61 @@ button {
   height: 44px;
   margin-top: 11px;
 }
+.reviews__grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(auto, 1fr));
+  gap: 30px;
+  margin-top: 100px;
+}
+.reviews__item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.reviews__text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  background: #2e3947;
+  border-radius: 0 0 0 40px;
+  padding: 51px 51px 51px 45px;
+  box-sizing: border-box;
+}
+.reviews__text p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #d7d7d7;
+}
+.reviews__name {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.reviews__name img {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+}
+.reviews__title {
+  display: flex;
+  flex-direction: column;
+}
+.reviews__title h5 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  color: #fff;
+}
+.reviews__title p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #d7d7d7;
+}
