@@ -717,6 +717,9 @@ button {
   font-size: 45px;
   line-height: 58px;
   color: #fff;
+  text-transform: capitalize;
+  max-width: 560px;
+  width: 100%;
 }
 .consultation__icon {
   width: 95px;
@@ -748,6 +751,7 @@ button {
 }
 .consultation__card {
   width: 630px;
+  height: 490px;
   padding: 55px;
   box-sizing: border-box;
   background: #ffffff;
@@ -766,7 +770,7 @@ button {
   line-height: 54.6px;
   color: #1f2732;
 }
-.consultation__card-inner p {
+.consultation__card-desc {
   font-family: "Outfit", sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -784,4 +788,22 @@ button {
 .consultation__card-inner img {
   width: 70px;
   height: 70px;
+}
+.consultation__title {
+  display: flex;
+  flex-direction: column;
+}
+.consultation__title span {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.6px;
+  color: #1f2732;
+}
+.consultation__title p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  color: #1f2732;
 }
