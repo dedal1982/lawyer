@@ -36,11 +36,8 @@ button {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
 }
-
-/* font-family: "Cormorant Garamond", serif; */
-/* font-family: "Outfit", sans-serif; */
 .container {
   max-width: 1440px;
   width: 100%;
@@ -48,6 +45,12 @@ button {
   padding-right: 40px;
   box-sizing: border-box;
   margin: 0 auto;
+}
+@media screen and (max-width: 1080px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 .promo {
   width: 100%;
@@ -73,15 +76,33 @@ button {
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 1080px) {
+  .promo__header {
+    margin: 0 auto;
+  }
+}
 .promo__header-top {
   width: 100%;
   height: 115px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+}
+@media screen and (max-width: 1080px) {
+  .promo__header-top {
+    border-bottom: 1px solid #4e555f;
+    height: 80px;
+  }
 }
 .promo__header-top img {
   width: 400px;
   height: 79px;
+}
+@media screen and (max-width: 1080px) {
+  .promo__header-top img {
+    width: 200px;
+    height: 55px;
+  }
 }
 .promo__header-top a {
   width: 350px;
@@ -103,6 +124,11 @@ button {
   color: #1f2732;
   border: 1px solid #d1b06b;
 }
+@media screen and (max-width: 1080px) {
+  .promo__header-top a {
+    display: none;
+  }
+}
 .promo__header-nav {
   width: 100%;
   height: 130px;
@@ -111,6 +137,11 @@ button {
   justify-content: space-between;
   border-top: 1px solid #4e555f;
   border-bottom: 1px solid #4e555f;
+}
+@media screen and (max-width: 1080px) {
+  .promo__header-nav {
+    display: none;
+  }
 }
 .promo__header-list {
   display: flex;
@@ -184,6 +215,11 @@ button {
   flex-direction: column;
   margin: 90px auto 70px 0;
 }
+@media screen and (max-width: 1024px) {
+  .promo__main-text {
+    margin: 0 auto 50px;
+  }
+}
 .promo__main-text img {
   width: 95px;
   height: 44px;
@@ -229,6 +265,11 @@ button {
 .promo__main-image {
   width: 672px;
   height: 708px;
+}
+@media screen and (max-width: 1024px) {
+  .promo__main-image {
+    display: none;
+  }
 }
 .promo__main-image img {
   width: 100%;
@@ -911,4 +952,72 @@ textarea {
 .feedback__form button:hover {
   background: rgb(209, 176, 107);
   color: #1f2732;
+}
+/*-----адаптив-----*/
+.header__burger {
+  display: none;
+}
+@media screen and (max-width: 1090px) {
+  .header__burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    right: 10px;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .header__burger:before {
+    content: "";
+    background-color: #cdaa7d;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .header__burger.active:before {
+    transform: rotate(45deg);
+    top: 9px;
+    transition: all 0.3s ease 0s;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .header__burger:after {
+    content: "";
+    background-color: #cdaa7d;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .header__burger.active:after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+    transition: all 0.3s ease 0s;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .header__burger span {
+    content: "";
+    background-color: #cdaa7d;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .header__burger.active span {
+    transform: scale(0);
+  }
 }
