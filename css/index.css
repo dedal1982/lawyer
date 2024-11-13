@@ -334,12 +334,12 @@ button {
 .p-gold {
   color: #1f2732;
 }
-/*---practice---*/
-.practice {
+/*---services---*/
+.services {
   width: 100%;
   background: #161d27;
 }
-.practice__wrapper {
+.services__wrapper {
   display: flex;
   flex-direction: column;
   gap: 60px;
@@ -347,30 +347,30 @@ button {
   padding-bottom: 140px;
   box-sizing: border-box;
 }
-.practice__top {
+.services__top {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
 }
-.practice__title {
+.services__title {
   display: flex;
   flex-direction: column;
 }
-.practice__title h2 {
+.services__title h2 {
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
   font-size: 45px;
   line-height: 58.5px;
   color: #ffffff;
 }
-.practice__icon {
+.services__icon {
   width: 95px;
   height: 44px;
   margin-top: 11px;
 }
-.practice__top h3 {
+.services__top h3 {
   max-width: 630px;
   width: 100%;
   font-family: "Outfit", sans-serif;
@@ -379,12 +379,12 @@ button {
   line-height: 32px;
   color: #d7d7d7;
 }
-.practice__grid {
+.services__grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(auto, 1fr));
   gap: 30px;
 }
-.practice__item {
+.services__item {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -393,26 +393,26 @@ button {
   box-sizing: border-box;
   background: #1f2732;
 }
-.practice__item-top {
+.services__item-top {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
-.practice__item-top h4 {
+.services__item-top h4 {
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
   font-size: 35px;
   line-height: 56px;
   color: #ffffff;
 }
-.practice__item-top p {
+.services__item-top p {
   font-family: "Outfit", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
   color: #d7d7d7;
 }
-.practice__item-bottom {
+.services__item-bottom {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -420,11 +420,11 @@ button {
   padding-top: 38px;
   box-sizing: border-box;
 }
-.practice__item-bottom img {
+.services__item-bottom img {
   width: auto;
   height: auto;
 }
-.practice__item-bottom a {
+.services__item-bottom a {
   width: 187px;
   height: 58px;
   display: flex;
@@ -436,4 +436,29 @@ button {
   font-size: 20px;
   line-height: 32px;
   color: #fff;
+}
+/*---advantages---*/
+.advantages {
+  width: 100%;
+  background: #fff;
+}
+.advantages__wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 115px;
+  padding-bottom: 130px;
+  box-sizing: border-box;
+}
+.advantages__wrapper h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 54px;
+  color: #161d27;
+}
+.advantages__wrapper img {
+  width: 95px;
+  height: 44px;
+  margin-top: 11px;
 }
