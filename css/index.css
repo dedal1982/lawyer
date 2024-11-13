@@ -807,3 +807,59 @@ button {
   line-height: 42px;
   color: #1f2732;
 }
+/*---feedback---*/
+.feedback {
+  width: 100%;
+  background: url(../image/feedback.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+.feedback__wrapper {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  box-sizing: border-box;
+}
+.feedback__form {
+  width: 100%;
+  background: #3b434e;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  box-sizing: border-box;
+}
+.feedback__form-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.feedback__form-top input {
+  width: 550px;
+  height: 87px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 21.6px;
+  color: #fff;
+}
+input::placeholder {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 21.6px;
+  color: #fff;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
