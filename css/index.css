@@ -332,6 +332,12 @@ button {
   flex-direction: column;
   gap: 30px;
 }
+@media screen and (max-width: 1024px) {
+  .welcome__images {
+    flex-direction: row;
+    max-width: 48%;
+  }
+}
 .welcome__images img {
   width: 100%;
   height: 100%;
