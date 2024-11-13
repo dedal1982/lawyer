@@ -436,6 +436,11 @@ button {
   font-size: 20px;
   line-height: 32px;
   color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.services__item-bottom a:hover {
+  background: rgb(209, 176, 107);
+  color: #1f2732;
 }
 /*---advantages---*/
 .advantages {
@@ -748,6 +753,12 @@ button {
   line-height: 35.2px;
   color: #1f2732;
   margin-top: 40px;
+  transition: all 0.2s ease-in-out;
+}
+.consultation__text a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
 }
 .consultation__card {
   width: 630px;
@@ -890,4 +901,9 @@ textarea {
   line-height: 21.6px;
   color: #3b434e;
   margin-top: 50px;
+  transition: all 0.2s ease-in-out;
+}
+.feedback__form button:hover {
+  background: rgb(209, 176, 107);
+  color: #1f2732;
 }
