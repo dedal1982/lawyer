@@ -471,3 +471,37 @@ button {
   margin-top: 40px;
   text-align: center;
 }
+.advantages__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(auto, 1fr));
+  gap: 30px;
+}
+.advantages__item {
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 20px;
+  background: #fbfbfb;
+}
+.advantages__item-box {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #d1b06b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.box-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box-inner span {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  color: #1f2732;
+}
