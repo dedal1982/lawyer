@@ -245,7 +245,7 @@ button {
   display: flex;
   gap: 60px;
   padding-top: 140px;
-  padding-bottom: 33px;
+  padding-bottom: 140px;
   box-sizing: border-box;
 }
 .welcome__images {
