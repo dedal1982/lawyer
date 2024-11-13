@@ -447,7 +447,7 @@ button {
   align-items: center;
   flex-direction: column;
   padding-top: 115px;
-  padding-bottom: 130px;
+  padding-bottom: 82px;
   box-sizing: border-box;
 }
 .advantages__wrapper h2 {
@@ -472,9 +472,11 @@ button {
   text-align: center;
 }
 .advantages__grid {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, minmax(auto, 1fr));
   gap: 30px;
+  margin-top: 60px;
 }
 .advantages__item {
   width: 100%;
@@ -523,4 +525,29 @@ button {
   font-size: 20px;
   line-height: 32px;
   color: #909090;
+}
+.advantages__last {
+  width: 100%;
+  padding: 40px 50px;
+  box-sizing: border-box;
+  background: url(../image/advantages-img.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.advantages__last h5 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  color: #fff;
+}
+.advantages__last p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #fff;
 }
