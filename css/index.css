@@ -751,7 +751,7 @@ button {
 }
 .consultation__card {
   width: 630px;
-  height: 490px;
+  height: fit-content;
   padding: 55px;
   box-sizing: border-box;
   background: #ffffff;
@@ -824,10 +824,9 @@ button {
   width: 100%;
   background: #3b434e;
   display: flex;
-  align-items: center;
+
   flex-direction: column;
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding: 90px 100px;
   box-sizing: border-box;
 }
 .feedback__form-top {
@@ -851,8 +850,7 @@ input::placeholder {
   line-height: 21.6px;
   color: #fff;
 }
-input[type="text"],
-input[type="password"],
+input,
 textarea {
   background: transparent;
   outline: none;
