@@ -323,6 +323,7 @@ button {
   .welcome__wrapper {
     padding-top: 50px;
     padding-bottom: 50px;
+    gap: 40px;
   }
 }
 .welcome__images {
@@ -335,13 +336,20 @@ button {
 @media screen and (max-width: 1024px) {
   .welcome__images {
     flex-direction: row;
-    max-width: 48%;
+    max-width: 100%;
+    gap: 5px;
+    justify-content: space-between;
   }
 }
 .welcome__images img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+@media screen and (max-width: 1024px) {
+  .welcome__images img {
+    width: 48%;
+  }
 }
 .welcome__text {
   max-width: 790px;
