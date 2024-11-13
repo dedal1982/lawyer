@@ -225,6 +225,11 @@ button {
   height: 44px;
   margin-top: 40px;
 }
+@media screen and (max-width: 767px) {
+  .promo__main-text img {
+    margin-top: 0;
+  }
+}
 .promo__main-text h1 {
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
@@ -233,6 +238,12 @@ button {
   color: #ffffff;
   margin-top: 14px;
 }
+@media screen and (max-width: 767px) {
+  .promo__main-text h1 {
+    font-size: 53px;
+    line-height: 53px;
+  }
+}
 .promo__main-text h2 {
   font-family: "Outfit", sans-serif;
   font-weight: 400;
@@ -240,6 +251,12 @@ button {
   line-height: 39.6px;
   color: #d1b06b;
   margin-top: 21px;
+}
+@media screen and (max-width: 767px) {
+  .promo__main-text h2 {
+    font-size: 28px;
+    line-height: 35px;
+  }
 }
 .promo__main a {
   width: 269px;
@@ -256,6 +273,12 @@ button {
   color: #1f2732;
   margin-top: 28px;
   transition: all 0.2s ease-in-out;
+}
+@media screen and (max-width: 767px) {
+  .promo__main a {
+    width: 100%;
+    height: 60px;
+  }
 }
 .promo__main a:hover {
   background: #ffffff1a;
