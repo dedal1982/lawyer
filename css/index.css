@@ -312,6 +312,19 @@ button {
   padding-bottom: 140px;
   box-sizing: border-box;
 }
+@media screen and (max-width: 1024px) {
+  .welcome__wrapper {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .welcome__wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
 .welcome__images {
   max-width: 467px;
   width: 100%;
