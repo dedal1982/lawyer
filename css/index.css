@@ -772,4 +772,16 @@ button {
   font-size: 20px;
   line-height: 32px;
   color: #909090;
+  margin-top: 12px;
+}
+.consultation__card-inner a {
+  width: 100%;
+  margin-top: 37px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.consultation__card-inner img {
+  width: 70px;
+  height: 70px;
 }
