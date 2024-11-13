@@ -551,3 +551,27 @@ button {
   line-height: 26px;
   color: #fff;
 }
+/*---reviews---*/
+.reviews {
+  width: 100%;
+  background: #161d27;
+}
+.reviews__wrapper {
+  padding-top: 124px;
+  padding-bottom: 140px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.reviews__wrapper h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 54px;
+  color: #fff;
+}
+.reviews__wrapper img {
+  width: 95px;
+  height: 44px;
+  margin-top: 11px;
+}
