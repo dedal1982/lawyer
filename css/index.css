@@ -405,6 +405,11 @@ button {
   gap: 30px;
   margin-top: 45px;
 }
+@media screen and (max-width: 767px) {
+  .welcome__item-wrap {
+    flex-direction: column;
+  }
+}
 .welcome__item {
   width: 315px;
   height: 126px;
@@ -417,6 +422,11 @@ button {
   .welcome__item {
     width: 48%;
     height: 100px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .welcome__item {
+    width: 100%;
   }
 }
 .item-gray {
