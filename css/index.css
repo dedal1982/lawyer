@@ -481,6 +481,7 @@ button {
   padding: 30px;
   box-sizing: border-box;
   display: flex;
+  align-items: center;
   gap: 20px;
   background: #fbfbfb;
 }
@@ -504,4 +505,22 @@ button {
   font-size: 30px;
   line-height: 39px;
   color: #1f2732;
+}
+.advantages__item-text {
+  display: flex;
+  flex-direction: column;
+}
+.advantages__item-text h5 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  color: #1f2732;
+}
+.advantages__item-text p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #909090;
 }
