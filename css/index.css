@@ -509,6 +509,12 @@ button {
   line-height: 58.5px;
   color: #ffffff;
 }
+@media screen and (max-width: 767px) {
+  .services__title h2 {
+    font-size: 41px;
+    line-height: 50px;
+  }
+}
 .services__icon {
   width: 95px;
   height: 44px;
@@ -522,6 +528,12 @@ button {
   font-size: 20px;
   line-height: 32px;
   color: #d7d7d7;
+}
+@media screen and (max-width: 767px) {
+  .services__top h3 {
+    font-size: 18px;
+    line-height: 28px;
+  }
 }
 .services__grid {
   display: grid;
@@ -1166,16 +1178,16 @@ textarea {
   .swiper-button-next,
   .swiper-rtl .swiper-button-prev {
     right: var(--swiper-navigation-sides-offset, 0px);
-    border: 1px solid #fff;
+    border: 1px solid #d1b06b;
   }
   .swiper-button-prev,
   .swiper-rtl .swiper-button-next {
     left: var(--swiper-navigation-sides-offset, 0px);
-    border: 1px solid #fff;
+    border: 1px solid #d1b06b;
   }
   .swiper-button-next:after,
   .swiper-button-prev:after {
     font-size: 12px;
-    color: #fff;
+    color: #d1b06b;
   }
 }
