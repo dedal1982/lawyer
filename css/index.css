@@ -5,6 +5,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 a {
   text-decoration: none;
 }
@@ -620,6 +623,10 @@ button {
 }
 .border-gold {
   border: 1px solid #d1b06b;
+  height: 398px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .no-clamp p {
   overflow: visible;
@@ -1200,14 +1207,17 @@ textarea {
   }
 }
 /*---services__swiper---*/
-.services__swiper {
+.services__swiper,
+.services__swiper-two {
   display: none;
 }
 @media screen and (max-width: 767px) {
-  .services__swiper {
+  .services__swiper,
+  .services__swiper-two {
     display: flex;
   }
-  .services__swiper {
+  .services__swiper,
+  .services__swiper-two {
     width: 100%;
   }
   .swiper-button-next,
