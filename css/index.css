@@ -623,10 +623,14 @@ button {
 }
 .border-gold {
   border: 1px solid #d1b06b;
-  height: 398px;
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .border-gold {
+    height: 398px;
+  }
 }
 .no-clamp p {
   overflow: visible;
@@ -692,6 +696,7 @@ button {
   font-size: 45px;
   line-height: 54px;
   color: #161d27;
+  text-align: center;
 }
 .advantages__wrapper img {
   width: 95px;
@@ -710,7 +715,7 @@ button {
 .advantages__grid {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, minmax(auto, 1fr));
+  grid-template-columns: repeat(2, minmax(auto, 1fr));
   gap: 30px;
   margin-top: 60px;
 }
@@ -722,6 +727,7 @@ button {
   align-items: center;
   gap: 20px;
   background: #fbfbfb;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .advantages__item-box {
   width: 120px;
