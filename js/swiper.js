@@ -1,7 +1,7 @@
 const swiper = new Swiper(".services__swiper", {
   // Optional parameters
   direction: "horizontal",
-  loop: true,
+  loop: false,
 
   // If we need pagination
   pagination: {
