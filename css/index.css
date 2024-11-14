@@ -244,8 +244,9 @@ button {
 }
 @media screen and (max-width: 767px) {
   .promo__main-text h1 {
-    font-size: 53px;
+    font-size: 41px;
     line-height: 53px;
+    text-align: center;
   }
 }
 .promo__main-text h2 {
@@ -258,8 +259,9 @@ button {
 }
 @media screen and (max-width: 767px) {
   .promo__main-text h2 {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 35px;
+    text-align: center;
   }
 }
 .promo__main a {
@@ -545,6 +547,7 @@ button {
   border-top: 1px solid #4e555f;
   padding-top: 38px;
   box-sizing: border-box;
+  margin-top: auto;
 }
 .services__item-bottom img {
   width: auto;
