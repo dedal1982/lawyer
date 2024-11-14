@@ -473,12 +473,30 @@ button {
   padding-bottom: 140px;
   box-sizing: border-box;
 }
+@media screen and (max-width: 1024px) {
+  .services__wrapper {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .services__wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
 .services__top {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+}
+@media screen and (max-width: 1090px) {
+  .services__top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 .services__title {
   display: flex;
@@ -510,6 +528,16 @@ button {
   grid-template-columns: repeat(3, minmax(auto, 1fr));
   gap: 30px;
 }
+@media screen and (max-width: 1260px) {
+  .services__grid {
+    grid-template-columns: repeat(2, minmax(auto, 1fr));
+  }
+}
+@media screen and (max-width: 767px) {
+  .services__grid {
+    display: none;
+  }
+}
 .services__item {
   width: 100%;
   display: flex;
@@ -518,6 +546,11 @@ button {
   padding: 55px 50px;
   box-sizing: border-box;
   background: #1f2732;
+}
+@media screen and (max-width: 1024px) {
+  .services__item {
+    padding: 30px;
+  }
 }
 .services__item-top {
   display: flex;
