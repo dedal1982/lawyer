@@ -178,6 +178,10 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0, 2s ease-in-out;
+}
+.promo__header-item a:hover {
+  background: #ffffff1a;
 }
 .promo__header-item a img {
   width: 17px;
