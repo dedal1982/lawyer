@@ -564,6 +564,11 @@ button {
     padding: 30px 25px 30px 35px;
   }
 }
+@media screen and (max-width: 767px) {
+  .services__item {
+    height: 335px;
+  }
+}
 .services__item-top {
   display: flex;
   flex-direction: column;
