@@ -379,6 +379,12 @@ button {
   color: #ffffff;
   margin-top: 10px;
 }
+@media screen and (max-width: 767px) {
+  .welcome__text h2 {
+    font-size: 41px;
+    line-height: 45px;
+  }
+}
 .welcome__icon {
   width: 95px;
   height: 44px;
@@ -612,6 +618,17 @@ button {
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
 }
+.border-gold {
+  border: 1px solid #d1b06b;
+}
+.no-clamp p {
+  overflow: visible;
+  display: block;
+  -webkit-line-clamp: unset;
+  -webkit-box-orient: inherit;
+  text-overflow: clip;
+}
+
 @media screen and (max-width: 767px) {
   .services__item-top p {
     font-size: 18px;
