@@ -561,7 +561,7 @@ button {
 }
 @media screen and (max-width: 1024px) {
   .services__item {
-    padding: 30px 35px;
+    padding: 30px 25px 30px 35px;
   }
 }
 .services__item-top {
