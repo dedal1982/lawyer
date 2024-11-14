@@ -532,6 +532,11 @@ button {
   font-size: 20px;
   line-height: 32px;
   color: #d7d7d7;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
 }
 .services__item-bottom {
   width: 100%;
