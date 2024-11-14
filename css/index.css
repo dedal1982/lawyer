@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url(../fonts/font.css);
 * {
@@ -112,7 +112,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 35.2px;
@@ -149,7 +149,7 @@ button {
   gap: 46px;
 }
 .promo__header-list li a {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 35.2px;
@@ -193,14 +193,14 @@ button {
   flex-direction: column;
 }
 .promo__header-text span {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 28.8px;
   color: #d1b06b;
 }
 .promo__header-text p {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 26.4px;
@@ -250,7 +250,7 @@ button {
   }
 }
 .promo__main-text h2 {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 39.6px;
@@ -259,7 +259,7 @@ button {
 }
 @media screen and (max-width: 767px) {
   .promo__main-text h2 {
-    font-size: 24px;
+    font-size: 21px;
     line-height: 35px;
     text-align: center;
   }
@@ -272,7 +272,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 35.2px;
@@ -382,7 +382,7 @@ button {
   margin-top: 11px;
 }
 .welcome__text-p {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -446,7 +446,7 @@ button {
   flex-direction: column;
 }
 .welcome__item-text-p {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 28.6px;
@@ -496,7 +496,7 @@ button {
 .services__top h3 {
   max-width: 630px;
   width: 100%;
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -529,7 +529,7 @@ button {
   color: #ffffff;
 }
 .services__item-top p {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -560,7 +560,7 @@ button {
   align-items: center;
   justify-content: center;
   background: #161d27;
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -597,7 +597,7 @@ button {
   margin-top: 11px;
 }
 .advantages__wrapper h3 {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -636,7 +636,7 @@ button {
   align-items: center;
 }
 .box-inner span {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 39px;
@@ -654,7 +654,7 @@ button {
   color: #1f2732;
 }
 .advantages__item-text p {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -672,14 +672,14 @@ button {
   gap: 10px;
 }
 .advantages__last h5 {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 39px;
   color: #fff;
 }
 .advantages__last p {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
@@ -733,7 +733,7 @@ button {
   box-sizing: border-box;
 }
 .reviews__text p {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -761,7 +761,7 @@ button {
   color: #fff;
 }
 .reviews__title p {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -820,7 +820,7 @@ button {
   margin-top: 20px;
 }
 .lawyers__item h4 {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -861,7 +861,7 @@ button {
   margin-top: 9px;
 }
 .consultation__text p {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -876,7 +876,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 35.2px;
@@ -911,7 +911,7 @@ button {
   color: #1f2732;
 }
 .consultation__card-desc {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -934,14 +934,14 @@ button {
   flex-direction: column;
 }
 .consultation__title span {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21.6px;
   color: #1f2732;
 }
 .consultation__title p {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 42px;
@@ -981,7 +981,7 @@ button {
 }
 input,
 textarea {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 25px;
   line-height: 21.6px;
@@ -989,7 +989,7 @@ textarea {
 }
 input::placeholder,
 textarea::placeholder {
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 25px;
   line-height: 21.6px;
@@ -1024,7 +1024,7 @@ textarea {
   align-items: center;
   justify-content: center;
   background: #fff;
-  font-family: "Outfit", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 25px;
   line-height: 21.6px;
