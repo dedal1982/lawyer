@@ -1069,6 +1069,7 @@ button {
 @media screen and (max-width: 1160px) {
   .consultation__wrapper {
     flex-direction: column;
+    gap: 50px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -1089,6 +1090,11 @@ button {
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 1160px) {
+  .consultation__text {
+    max-width: 100%;
+  }
+}
 .consultation__text h2 {
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
@@ -1097,6 +1103,17 @@ button {
   color: #fff;
   max-width: 560px;
   width: 100%;
+}
+@media screen and (max-width: 1160px) {
+  .consultation__text h2 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .consultation__text h2 {
+    font-size: 38px;
+    line-height: 45px;
+  }
 }
 .consultation__icon {
   width: 95px;
@@ -1127,6 +1144,12 @@ button {
   margin-top: 40px;
   transition: all 0.2s ease-in-out;
 }
+@media screen and (max-width: 767px) {
+  .consultation__text a {
+    width: 100%;
+    height: 60px;
+  }
+}
 .consultation__text a:hover {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -1149,6 +1172,11 @@ button {
     width: 100%;
   }
 }
+@media screen and (max-width: 767px) {
+  .consultation__card {
+    padding: 10px;
+  }
+}
 .consultation__card-inner {
   display: flex;
   flex-direction: column;
@@ -1167,12 +1195,23 @@ button {
     padding: 20px;
   }
 }
+@media screen and (max-width: 767px) {
+  .consultation__card-inner {
+    border: 5px solid #d7d7d7;
+  }
+}
 .consultation__card-inner h3 {
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
   font-size: 42px;
   line-height: 54.6px;
   color: #1f2732;
+}
+@media screen and (max-width: 767px) {
+  .consultation__card-inner h3 {
+    font-size: 38px;
+    line-height: 43.6px;
+  }
 }
 .consultation__card-desc {
   font-family: "Montserrat", sans-serif;
@@ -1181,6 +1220,12 @@ button {
   line-height: 32px;
   color: #909090;
   margin-top: 12px;
+}
+@media screen and (max-width: 767px) {
+  .consultation__card-desc {
+    font-size: 18px;
+    line-height: 26px;
+  }
 }
 .consultation__card-inner a {
   width: fit-content;
@@ -1192,6 +1237,12 @@ button {
 .consultation__card-inner img {
   width: 70px;
   height: 70px;
+}
+@media screen and (max-width: 767px) {
+  .consultation__card-inner img {
+    width: 50px;
+    height: 50px;
+  }
 }
 .consultation__title {
   display: flex;
@@ -1210,6 +1261,12 @@ button {
   font-size: 30px;
   line-height: 42px;
   color: #1f2732;
+}
+@media screen and (max-width: 767px) {
+  .consultation__title p {
+    font-size: 23px;
+    line-height: 30px;
+  }
 }
 /*---feedback---*/
 .feedback {
@@ -1408,7 +1465,7 @@ textarea {
 .separator {
   width: 100%;
   height: 248px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../image/separator.svg);
   background-repeat: no-repeat;
   background-size: cover;
