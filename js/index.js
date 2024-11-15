@@ -12,7 +12,7 @@ navLink.forEach((item) => {
 const burgerClick = document.querySelector(".header__burger");
 const burgerOpenMobile = document.querySelector(".header__mobile");
 const scrollLock = document.querySelector(".body");
-const promoMobileMenu = document.querySelector(".promo-mobile-menu");
+const promoMobileMenu = document.querySelector(".mobile-menu");
 
 if (burgerClick) {
   burgerClick.addEventListener("click", () => {
