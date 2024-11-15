@@ -19,3 +19,14 @@ if (burgerClick) {
     scrollLock.classList.toggle("lock");
   });
 }
+
+window.onscroll = function () {
+  const header = document.getElementById("headerNav");
+  const sticky = header.offsetTop;
+
+  if (window.pageYOffset > sticky) {
+    header.classList.add("fixed");
+  } else {
+    header.classList.remove("fixed");
+  }
+};
