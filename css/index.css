@@ -1662,13 +1662,25 @@ textarea {
   align-items: center;
   justify-content: space-between;
 }
+@media screen and (max-width: 768px) {
+  .footer__wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer__wrapper {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}
 .footer__wrapper p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
-  text-transform: uppercase;
-  color: #fff;
+  color: #8e8d8d;
 }
 .footer__social {
   display: flex;
