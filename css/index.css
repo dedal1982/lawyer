@@ -424,7 +424,7 @@ button {
 }
 .welcome__name {
   display: flex;
-  align-items: center;
+  align-items: end;
   gap: 20px;
   margin-top: 35px;
 }
@@ -440,6 +440,13 @@ button {
   line-height: 52px;
   color: #ffffff;
 }
+@media screen and (max-width: 767px) {
+  .welcome__name h3 {
+    font-size: 26px;
+    line-height: 33px;
+  }
+}
+
 .welcome__item-wrap {
   display: flex;
   gap: 30px;
