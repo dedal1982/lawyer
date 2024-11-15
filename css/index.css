@@ -887,6 +887,12 @@ button {
   line-height: 54px;
   color: #fff;
 }
+@media screen and (max-width: 767px) {
+  .reviews__wrapper h2 {
+    font-size: 41px;
+    line-height: 45px;
+  }
+}
 .reviews__wrapper img {
   width: 95px;
   height: 44px;
@@ -979,6 +985,18 @@ button {
   padding-bottom: 120px;
   box-sizing: border-box;
 }
+@media screen and (max-width: 1024px) {
+  .lawyers__wrapper {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lawyers__wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
 .lawyers__wrapper h2 {
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
@@ -986,12 +1004,23 @@ button {
   line-height: 54px;
   color: #161d27;
 }
+@media screen and (max-width: 767px) {
+  .lawyers__wrapper h2 {
+    font-size: 41px;
+    line-height: 45px;
+  }
+}
 .lawyers__grid {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, minmax(auto, 1fr));
   gap: 30px;
   margin-top: 70px;
+}
+@media screen and (max-width: 960px) {
+  .lawyers__grid {
+    overflow: auto;
+  }
 }
 .lawyers__item {
   width: 100%;
@@ -1003,6 +1032,11 @@ button {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+@media screen and (max-width: 960px) {
+  .lawyers__item img {
+    width: 290px;
+  }
 }
 .lawyers__item h3 {
   font-family: "Cormorant Garamond", serif;
