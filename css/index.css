@@ -1066,6 +1066,11 @@ button {
   justify-content: space-between;
   gap: 20px;
 }
+@media screen and (max-width: 1160px) {
+  .consultation__wrapper {
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 1024px) {
   .consultation__wrapper {
     padding-top: 100px;
@@ -1134,12 +1139,33 @@ button {
   box-sizing: border-box;
   background: #ffffff;
 }
+@media screen and (max-width: 1260px) {
+  .consultation__card {
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .consultation__card {
+    width: 100%;
+  }
+}
 .consultation__card-inner {
   display: flex;
   flex-direction: column;
   padding: 50px 40px;
   box-sizing: border-box;
   border: 15px solid #d7d7d7;
+}
+@media screen and (max-width: 1160px) {
+  .consultation__card-inner {
+    align-items: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1260px) {
+  .consultation__card-inner {
+    padding: 20px;
+  }
 }
 .consultation__card-inner h3 {
   font-family: "Cormorant Garamond", serif;
@@ -1157,7 +1183,7 @@ button {
   margin-top: 12px;
 }
 .consultation__card-inner a {
-  width: 100%;
+  width: fit-content;
   margin-top: 37px;
   display: flex;
   align-items: center;
