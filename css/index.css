@@ -431,6 +431,7 @@ button {
 .welcome__img {
   width: 90px;
   height: 90px;
+  object-fit: cover;
 }
 .welcome__name h3 {
   font-family: "Cormorant Garamond", serif;
@@ -697,6 +698,34 @@ button {
 .services__item-bottom a:hover {
   background: rgb(209, 176, 107);
   color: #1f2732;
+}
+.services__case {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.case-item {
+  width: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  box-sizing: border-box;
+  border: 1px solid #d1b06b;
+}
+.case-item p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fff;
+}
+.case-item p span {
+  color: #d1b06b;
+}
+.item-rez {
+  width: 100%;
 }
 /*---advantages---*/
 .advantages {
