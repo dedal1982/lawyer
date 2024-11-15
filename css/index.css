@@ -321,7 +321,6 @@ button {
 }
 .promo__main-image {
   width: 672px;
-  height: 708px;
 }
 @media screen and (max-width: 1024px) {
   .promo__main-image {
