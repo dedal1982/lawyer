@@ -1066,6 +1066,18 @@ button {
   justify-content: space-between;
   gap: 20px;
 }
+@media screen and (max-width: 1024px) {
+  .consultation__wrapper {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media screen and (max-width: 758px) {
+  .consultation__wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
 .consultation__text {
   max-width: 630px;
   width: 100%;
@@ -1078,7 +1090,6 @@ button {
   font-size: 45px;
   line-height: 58px;
   color: #fff;
-  text-transform: capitalize;
   max-width: 560px;
   width: 100%;
 }
