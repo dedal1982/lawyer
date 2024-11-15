@@ -231,6 +231,11 @@ button {
   gap: 16px;
   margin-top: 20px;
 }
+@media screen and (max-width: 767px) {
+  .promo__main {
+    height: 100dvh;
+  }
+}
 .promo__main-text {
   max-width: 672px;
   width: 100%;
@@ -266,6 +271,7 @@ button {
     font-size: 41px;
     line-height: 53px;
     text-align: center;
+    margin-top: calc(100% - 196px);
   }
 }
 .promo__main-text h2 {
@@ -303,6 +309,7 @@ button {
   .promo__main a {
     width: 100%;
     height: 60px;
+    margin-top: auto;
   }
 }
 .promo__main a:hover {
