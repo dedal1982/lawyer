@@ -1281,6 +1281,18 @@ button {
   padding-bottom: 140px;
   box-sizing: border-box;
 }
+@media screen and (max-width: 1024px) {
+  .feedback__wrapper {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .feedback__wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
 .feedback__form {
   width: 100%;
   background: #3b434e;
@@ -1290,15 +1302,40 @@ button {
   padding: 90px 100px;
   box-sizing: border-box;
 }
+@media screen and (max-width: 1024px) {
+  .feedback__form {
+    padding: 60px 70px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .feedback__form {
+    padding: 30px 20px;
+  }
+}
 .feedback__form-top {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, minmax(auto, 1fr));
   gap: 40px;
 }
+@media screen and (max-width: 767px) {
+  .feedback__form-top {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .feedback__form-top {
+    gap: 20px;
+  }
+}
 .feedback__form-top input {
   width: 100%;
   height: 87px;
+}
+@media screen and (max-width: 768px) {
+  .feedback__form-top input {
+    height: 50px;
+  }
 }
 input,
 textarea {
@@ -1308,6 +1345,20 @@ textarea {
   line-height: 21.6px;
   color: #fff;
 }
+@media screen and (max-width: 768px) {
+  input,
+  textarea {
+    font-size: 20px;
+    line-height: 21.6px;
+  }
+}
+@media screen and (max-width: 767px) {
+  input,
+  textarea {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
 input::placeholder,
 textarea::placeholder {
   font-family: "Montserrat", sans-serif;
@@ -1315,6 +1366,20 @@ textarea::placeholder {
   font-size: 25px;
   line-height: 21.6px;
   color: #fff;
+}
+@media screen and (max-width: 768px) {
+  input::placeholder,
+  textarea::placeholder {
+    font-size: 20px;
+    line-height: 21.6px;
+  }
+}
+@media screen and (max-width: 767px) {
+  input::placeholder,
+  textarea::placeholder {
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
 input,
 textarea {
@@ -1338,6 +1403,18 @@ textarea {
   box-sizing: border-box;
   scrollbar-width: none;
 }
+@media screen and (max-width: 768px) {
+  textarea {
+    height: 100px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  textarea {
+    height: 100px;
+    margin-top: 0;
+  }
+}
 .feedback__form button {
   width: 305px;
   height: 85px;
@@ -1356,6 +1433,13 @@ textarea {
 .feedback__form button:hover {
   background: rgb(209, 176, 107);
   color: #1f2732;
+}
+@media screen and (max-width: 767px) {
+  .feedback__form button {
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+  }
 }
 /*-----адаптив-----*/
 .header__burger {
