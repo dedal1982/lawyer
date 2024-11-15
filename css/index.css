@@ -95,11 +95,7 @@ button {
     background: #161d27;
   }
 }
-@media screen and (max-width: 1080px) {
-  .promo__header {
-    margin: 0 auto;
-  }
-}
+
 .promo__header-top {
   width: 100%;
   height: 115px;
@@ -255,7 +251,7 @@ button {
 }
 @media screen and (max-width: 767px) {
   .promo__main-text img {
-    margin-top: 0;
+    margin-top: 90px;
   }
 }
 .promo__main-text h1 {
@@ -271,7 +267,7 @@ button {
     font-size: 41px;
     line-height: 53px;
     text-align: center;
-    margin-top: calc(100% - 196px);
+    margin-top: calc(100% - 156px);
   }
 }
 .promo__main-text h2 {
@@ -999,7 +995,7 @@ button {
 }
 .lawyers__item img {
   width: 100%;
-  height: 573.58px;
+  height: auto;
   object-fit: cover;
 }
 .lawyers__item h3 {
@@ -1352,6 +1348,7 @@ textarea {
     height: 70px;
   }
 }
+
 .fixed {
   position: fixed;
   top: 0;
