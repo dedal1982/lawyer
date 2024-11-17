@@ -622,7 +622,7 @@ button {
 }
 @media screen and (max-width: 767px) {
   .services__item {
-    height: 335px;
+    min-height: 335px;
   }
 }
 .services__item-top {
