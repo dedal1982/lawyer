@@ -655,6 +655,11 @@ button {
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
 }
+.services__item-top p.active {
+  overflow: visible;
+  display: block;
+  -webkit-line-clamp: unset;
+}
 .border-gold {
   border: 1px solid #d1b06b;
   align-items: center;

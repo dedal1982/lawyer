@@ -26,10 +26,17 @@ const links = document.querySelectorAll(".services__item-bottom a");
 
 links.forEach((link) => {
   link.addEventListener("click", (event) => {
+    event.preventDefault();
     const servicesItem = event.target.closest(".services__item");
     const topParagraph = servicesItem.querySelector(".services__item-top p");
+
     if (topParagraph) {
-      console.log(topParagraph.textContent);
+      topParagraph.classList.toggle("active");
+      if (link.textContent === "Назад") {
+        link.textContent = "Больше";
+      } else {
+        link.textContent = "Назад";
+      }
     }
   });
 });
