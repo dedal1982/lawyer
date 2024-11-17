@@ -21,3 +21,15 @@ if (burgerClick) {
     scrollLock.classList.toggle("lock");
   });
 }
+
+const links = document.querySelectorAll(".services__item-bottom a");
+
+links.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    const servicesItem = event.target.closest(".services__item");
+    const topParagraph = servicesItem.querySelector(".services__item-top p");
+    if (topParagraph) {
+      console.log(topParagraph.textContent);
+    }
+  });
+});
